@@ -12,7 +12,7 @@ This will prevent to open a lot of pages if you are using debug option of Plotly
 
 import open_dash_app
 
-...
+... python
 
 if __name__ == "__main__":
     open_dash_app.open_browser_for_local_dash_app(5050)
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 ## Installation
 
-```
+``` sh
 pip install open_dash_app
 ```
 
