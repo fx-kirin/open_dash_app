@@ -8,11 +8,10 @@ This will prevent to open a lot of pages if you are using debug option of Plotly
 
 ## Usage
 
-```
-
+``` python
 import open_dash_app
 
-... python
+...
 
 if __name__ == "__main__":
     open_dash_app.open_browser_for_local_dash_app(5050)
