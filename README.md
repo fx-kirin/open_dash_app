@@ -2,7 +2,7 @@
 
 [![Latest PyPI version](https://img.shields.io/pypi/v/package_name.svg)](https://pypi.python.org/pypi/open_dash_app)
 
-Open dash app in a browser only the port if not currently used.
+Open dash app in a browser only if the port is not currently used.
 
 This will prevent to open a lot of pages if you are using debug option of Plotly Dash app. Normaly, when you using `webbrowser` library to open dash url on startup of Dash app, the url will be opened everytime you save the python file.
 
